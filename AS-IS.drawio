@@ -1,0 +1,160 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="TO-BE 未來流程圖" id="Ud1SfyvTt5U5XqnNgso7">
+    <mxGraphModel dx="1373" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;childLayout=stackLayout;horizontal=1;horizontalStack=0;rounded=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1f5fe;strokeColor=#01579b;fontStyle=1;fontSize=14;" value="外部機關 / 繳納人" vertex="1">
+          <mxGeometry height="700" width="300" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-2" parent="zzsd3FhYyRY-iG_FrUou-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#01579b;" value="外部電子公文 / 資料批次匯入&lt;br&gt;或線上發起作業" vertex="1">
+          <mxGeometry height="60" width="300" y="23" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-3" parent="zzsd3FhYyRY-iG_FrUou-1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#01579b;" value="是否使用線上自助查詢？" vertex="1">
+          <mxGeometry height="80" width="300" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-4" parent="zzsd3FhYyRY-iG_FrUou-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#01579b;" value="使用 24 小時線上自助查詢平台&lt;br&gt;- 即時掌握進度與結果" vertex="1">
+          <mxGeometry height="60" width="300" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-5" parent="zzsd3FhYyRY-iG_FrUou-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#01579b;" value="人工查詢 / 特殊個案洽詢&lt;br&gt;- 經辦/客服人工協助" vertex="1">
+          <mxGeometry height="60" width="300" y="223" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;childLayout=stackLayout;horizontal=1;horizontalStack=0;rounded=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e8f5e9;strokeColor=#2e7d32;fontStyle=1;fontSize=14;" value="自動化系統 (核心與平台)" vertex="1">
+          <mxGeometry height="700" width="380" x="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-7" parent="zzsd3FhYyRY-iG_FrUou-6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2e7d32;" value="Step 1: 系統自動收件與格式檢核&lt;br&gt;- 批次匯入與防呆檢核" vertex="1">
+          <mxGeometry height="60" width="380" y="23" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-8" parent="zzsd3FhYyRY-iG_FrUou-6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2e7d32;" value="Step 2: 系統自動勾稽與處理&lt;br&gt;- 自動比對與勾稽 (達 90% 以上)" vertex="1">
+          <mxGeometry height="60" width="380" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-9" parent="zzsd3FhYyRY-iG_FrUou-6" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2e7d32;" value="系統勾稽是否異常？" vertex="1">
+          <mxGeometry height="80" width="380" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-10" parent="zzsd3FhYyRY-iG_FrUou-6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2e7d32;" value="Step 3: 系統自動開立電子收據&lt;br&gt;- 自動產生數位憑證與電子收據" vertex="1">
+          <mxGeometry height="60" width="380" y="223" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-11" parent="zzsd3FhYyRY-iG_FrUou-6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2e7d32;" value="Step 4: 系統數位歸檔&lt;br&gt;- 數位檔案自動串聯與歸檔" vertex="1">
+          <mxGeometry height="60" width="380" y="283" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-12" parent="1" style="swimlane;whiteSpace=wrap;html=1;childLayout=stackLayout;horizontal=1;horizontalStack=0;rounded=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff9c4;strokeColor=#fbc02d;fontStyle=1;fontSize=14;" value="內部經辦人員" vertex="1">
+          <mxGeometry height="700" width="300" x="760" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-13" parent="zzsd3FhYyRY-iG_FrUou-12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#fbc02d;" value="例外異常清單人工覆核&lt;br&gt;- 僅處理少數未通過勾稽之個案" vertex="1">
+          <mxGeometry height="60" width="300" y="23" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-14" parent="zzsd3FhYyRY-iG_FrUou-12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#fbc02d;" value="處理人工查詢電話/個案&lt;br&gt;- 協助少數不習慣數位工具者" vertex="1">
+          <mxGeometry height="60" width="300" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-15" parent="zzsd3FhYyRY-iG_FrUou-12" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2e7d32;fontStyle=1;" value="流程結束 / 系統自動歸檔結案" vertex="1">
+          <mxGeometry height="60" width="300" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-16" edge="1" parent="1" source="zzsd3FhYyRY-iG_FrUou-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="zzsd3FhYyRY-iG_FrUou-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-17" edge="1" parent="1" source="zzsd3FhYyRY-iG_FrUou-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="zzsd3FhYyRY-iG_FrUou-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-18" edge="1" parent="1" source="zzsd3FhYyRY-iG_FrUou-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="zzsd3FhYyRY-iG_FrUou-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="240" />
+              <mxPoint x="270" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-19" edge="1" parent="1" source="zzsd3FhYyRY-iG_FrUou-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zzsd3FhYyRY-iG_FrUou-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-20" edge="1" parent="1" source="zzsd3FhYyRY-iG_FrUou-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="zzsd3FhYyRY-iG_FrUou-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-21" edge="1" parent="1" source="zzsd3FhYyRY-iG_FrUou-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="zzsd3FhYyRY-iG_FrUou-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-22" edge="1" parent="1" source="zzsd3FhYyRY-iG_FrUou-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="zzsd3FhYyRY-iG_FrUou-10" value="否 (正常)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-23" edge="1" parent="1" source="zzsd3FhYyRY-iG_FrUou-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zzsd3FhYyRY-iG_FrUou-13" value="是 (異常)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-24" edge="1" parent="1" source="zzsd3FhYyRY-iG_FrUou-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="zzsd3FhYyRY-iG_FrUou-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-25" edge="1" parent="1" source="zzsd3FhYyRY-iG_FrUou-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="zzsd3FhYyRY-iG_FrUou-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-26" edge="1" parent="1" source="zzsd3FhYyRY-iG_FrUou-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="zzsd3FhYyRY-iG_FrUou-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zzsd3FhYyRY-iG_FrUou-27" edge="1" parent="1" source="zzsd3FhYyRY-iG_FrUou-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="zzsd3FhYyRY-iG_FrUou-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_KCMHBSjYm8L5Iq7lFU-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;childLayout=stackLayout;horizontal=1;horizontalStack=0;rounded=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1f5fe;strokeColor=#01579b;fontStyle=1;fontSize=14;" value="外部機關 / 繳納人" vertex="1">
+          <mxGeometry height="700" width="300" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6_KCMHBSjYm8L5Iq7lFU-2" parent="6_KCMHBSjYm8L5Iq7lFU-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#01579b;" value="外部寄送紙本公文 / 扣押件 / 函詢件" vertex="1">
+          <mxGeometry height="60" width="300" y="23" as="geometry" />
+        </mxCell>
+        <mxCell id="6_KCMHBSjYm8L5Iq7lFU-3" parent="6_KCMHBSjYm8L5Iq7lFU-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#01579b;" value="人工查詢與電話詢問進度" vertex="1">
+          <mxGeometry height="60" width="300" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="6_KCMHBSjYm8L5Iq7lFU-4" parent="1" style="swimlane;whiteSpace=wrap;html=1;childLayout=stackLayout;horizontal=1;horizontalStack=0;rounded=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff9c4;strokeColor=#fbc02d;fontStyle=1;fontSize=14;" value="內部經辦人員" vertex="1">
+          <mxGeometry height="700" width="320" x="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6_KCMHBSjYm8L5Iq7lFU-5" parent="6_KCMHBSjYm8L5Iq7lFU-4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#fbc02d;" value="Step 1: 紙本收件與人工登記&lt;br&gt;- 每日收取實體紙本&lt;br&gt;- 逐筆手動登記至登記簿" vertex="1">
+          <mxGeometry height="60" width="320" y="23" as="geometry" />
+        </mxCell>
+        <mxCell id="6_KCMHBSjYm8L5Iq7lFU-6" parent="6_KCMHBSjYm8L5Iq7lFU-4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#fbc02d;" value="Step 2: 人工肉眼檢核與系統查詢&lt;br&gt;- 核心系統逐筆輸入查詢&lt;br&gt;- 肉眼核對紙本與畫面" vertex="1">
+          <mxGeometry height="60" width="320" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="6_KCMHBSjYm8L5Iq7lFU-7" parent="6_KCMHBSjYm8L5Iq7lFU-4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#fbc02d;" value="Step 3: 人工紙本比對與清單製作&lt;br&gt;- Excel 手動記錄與比對&lt;br&gt;- 多方交叉核對金額與範圍" vertex="1">
+          <mxGeometry height="60" width="320" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="6_KCMHBSjYm8L5Iq7lFU-8" parent="6_KCMHBSjYm8L5Iq7lFU-4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#fbc02d;" value="Step 4: 人工開立收據與傳遞&lt;br&gt;- 手動開立紙本收據&lt;br&gt;- 夾入公文紙本傳遞夾" vertex="1">
+          <mxGeometry height="60" width="320" y="203" as="geometry" />
+        </mxCell>
+        <mxCell id="6_KCMHBSjYm8L5Iq7lFU-9" parent="1" style="swimlane;whiteSpace=wrap;html=1;childLayout=stackLayout;horizontal=1;horizontalStack=0;rounded=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffebee;strokeColor=#c62828;fontStyle=1;fontSize=14;" value="內部主管" vertex="1">
+          <mxGeometry height="700" width="300" x="700" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6_KCMHBSjYm8L5Iq7lFU-10" parent="6_KCMHBSjYm8L5Iq7lFU-9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#c62828;" value="Step 5: 主管人工覆核與歸檔&lt;br&gt;- 逐筆審閱紙本與憑證&lt;br&gt;- 簽核後交由經辦歸檔" vertex="1">
+          <mxGeometry height="60" width="300" y="23" as="geometry" />
+        </mxCell>
+        <mxCell id="6_KCMHBSjYm8L5Iq7lFU-11" parent="6_KCMHBSjYm8L5Iq7lFU-9" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#c62828;fontStyle=1;" value="流程結束 / 交付下游單位" vertex="1">
+          <mxGeometry height="60" width="300" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="6_KCMHBSjYm8L5Iq7lFU-12" edge="1" parent="1" source="6_KCMHBSjYm8L5Iq7lFU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="6_KCMHBSjYm8L5Iq7lFU-5" value="實體遞送">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_KCMHBSjYm8L5Iq7lFU-13" edge="1" parent="1" source="6_KCMHBSjYm8L5Iq7lFU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="6_KCMHBSjYm8L5Iq7lFU-5" value="人工接聽與回覆">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="270" />
+              <mxPoint x="320" y="270" />
+              <mxPoint x="320" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_KCMHBSjYm8L5Iq7lFU-14" edge="1" parent="1" source="6_KCMHBSjYm8L5Iq7lFU-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6_KCMHBSjYm8L5Iq7lFU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_KCMHBSjYm8L5Iq7lFU-15" edge="1" parent="1" source="6_KCMHBSjYm8L5Iq7lFU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6_KCMHBSjYm8L5Iq7lFU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_KCMHBSjYm8L5Iq7lFU-16" edge="1" parent="1" source="6_KCMHBSjYm8L5Iq7lFU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6_KCMHBSjYm8L5Iq7lFU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_KCMHBSjYm8L5Iq7lFU-17" edge="1" parent="1" source="6_KCMHBSjYm8L5Iq7lFU-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="6_KCMHBSjYm8L5Iq7lFU-10" value="紙本夾件傳遞">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_KCMHBSjYm8L5Iq7lFU-18" edge="1" parent="1" source="6_KCMHBSjYm8L5Iq7lFU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6_KCMHBSjYm8L5Iq7lFU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
